@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#main {
+  background-color: #0f0d0d;
+  font-family: PP mori;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  overflow: hidden;
+  padding: 0px 30px;
+}
+
+#nav img {
+  width: 60px;
+}
+
+#np2 {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#np2 h4:nth-child(1) {
+  border-bottom: 1.5px solid white;
+}
+
+#page1 {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#page1 h2 {
+  font-size: 8vw;
+  margin-top: 20vh;
+  margin-left: 5vw;
+}
+
+#page1 h3 {
+  font-size: 8vw;
+  margin-left: 20vw;
+}
+
+#page1 video {
+  position: relative;
+  left: 50%;
+  width: 60%;
+  margin-top: 10vh;
+  transform: translate(-50%, 0);
+  padding-bottom: 5vh;
+}
+
+#page2 {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10vh 5vw;
+}
+
+#page2 h1 {
+  font-size: 6vw;
+  font-weight: 300;
+}
+
+#pcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.pleft {
+  width: 50%;
+  height: 70%;
+  padding: 5%;
+}
+
+.pright {
+  width: 40%;
+  height: 70%;
+  padding: 5%;
+}
+
+.pright p {
+  font-size: 1.5vw;
+}
+
+.pright button {
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  border-radius: 20px;
+  background-color: #edbfff;
+}
